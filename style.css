@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a :hover{
+    opacity: .3;
+}
+
+
+.thumb-title{
+    font-weight: bold;
+}
+
+.title-h1{
+    font-size: 24px;
+    line-height: 1.5;
+    padding-top: 80px;
+    margin-bottom: 222px;
+}
+
+.main-nav{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 22px;
+}
+
+.main-nav :hover{
+    opacity: .3;
+}
+
+.big-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: auto ;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#top {
+    background-image: url(images/hero.png);
+}
+
+.scroll-wrapper{
+display: flex;
+justify-content: right;
+}
+
+.scroll-img{
+    padding-right: 30px;
+}
+
+nav {
+    padding-right: 214px;
+}
+
+.top-img{
+    padding-top: 38px;
+}
+
+#profile{
+    background-image: url(images/profile-img.png);
+}
+
+.profile-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.profile-text{
+    max-width: 1000px;
+    margin: auto ;
+    color: #fff;
+    padding-bottom: 165px;
+}
+
+#profile p{
+   margin-bottom: 26px;
+   padding-left: 22px;
+   font-size: 16px;
+}
+
+
+.profile-title{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 116px;
+    padding-bottom: 60px;
+}
+
+#works{
+    background-image: url(images/works-img.png);
+    min-height: 100vh;
+}
+
+.works-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.works-wrapper{
+max-width:1000px;
+margin: auto ;
+padding-bottom: 116px;
+
+}
+
+.works-list{
+    max-width: 1000px;
+
+}
+
+.works-title{
+    padding-top: 116px;
+}
+
+.works-ul{
+    display: flex;
+   flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 22px;
+}
+
+
+.works-ul li{
+    width: 278px;
+    margin:0 48px 0 0;
+}
+
+
+
+.works-ul p{
+padding-top: 48px;
+}
+
+li img{
+    box-shadow: 0px 3px 24px rgba(0,0,0,0.3);
+    margin-top: 24px;
+}
+
+.Graduation-work-title{
+    padding-top: 116px;
+}
+
+
+
+
+#contact{
+    background-image: url(images/contact-img.png);
+    min-height: 468px;
+    text-align: center;
+}
+
+#contact p{
+    padding-bottom: 60px;
+}
+
+.contact-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.contact-wrapper{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.mail-address a:hover{
+    opacity: .3;
+}
+
+.mail-address a{
+color: rgb(0, 0, 0);
+}
+
+.contact-title{
+    font-size: 24px;
+    color: #fff;
+    padding-top: 116px;
+    padding-bottom: 60px;
+}
+
+footer{
+    min-height: 80px;
+    display:flex;
+justify-content:center;
+align-items:center
+}
+
+@media (max-width:768px){
+
+
+
+    .wrapper{
+        max-width: 320px;
+    }
+
+    .top-img{
+        display: none;
+    }
+
+    .title-h1{
+        padding-top: 80px;
+        margin-bottom: 80px;
+   
+    }
+
+    .main-nav{
+        line-height: 3;
+        padding-left: 0;
+    }
+
+    .profile-text{
+        max-width: 320px;
+    }
+    
+    #profile p{
+        padding-left: 0px;
+     }
+
+     .works-wrapper{
+        max-width:320px;
+     }        
+
+
+     .contact-wrapper{
+        max-width: 320px;
+    }
+}
